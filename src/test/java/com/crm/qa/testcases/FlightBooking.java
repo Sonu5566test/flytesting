@@ -41,7 +41,6 @@ public class FlightBooking extends TestBase {
 	@Test(priority = 1)
 	@Parameters({"from","to"})
 	public void SelectDepartureReturnTest(String from, String to) throws Throwable {
-//		Thread.sleep(3000);
 		homePage.acceptCookies();
 		homePage.enterFrom(from);
 		homePage.enterTo(to);
@@ -58,16 +57,12 @@ public class FlightBooking extends TestBase {
 		flightSelection.selectDepartingFlight();
 		Thread.sleep(10000);
 		flightSelection.selectReturningFlight();
-//		Thread.sleep(10000);
 	}
 	
 	@Test(priority = 3)
 	public void AddExtraBaggageAndGetFlightDetailsTest() throws Throwable {
 		extraDetail.addExtraBaggage();
-
-//		Thread.sleep(12000);
 		extraDetail.clickFlightDetails();
-//		Thread.sleep(3000);
 		/* Fetching Flight Fare and Tax Surcharge from Flight details tab */
 		HashMap<String, String> getflightDetails = extraDetail.getFlightDetails();
 		expectedDepartFare = getflightDetails.get("departFare");
@@ -86,13 +81,9 @@ public class FlightBooking extends TestBase {
 		passengerDetails.enterEmailAddress(email);
 		passengerDetails.selectGender();
 		passengerDetails.clickCountryCode();
-//		Thread.sleep(3000);
 		passengerDetails.scrollToSelector();
-//		Thread.sleep(1000);
 		passengerDetails.enterMobileNumber(phoneNo);
-//		Thread.sleep(3000);
 		passengerDetails.clickReviewBooking();
-//		Thread.sleep(6000);
 	}
 
 	/* Validating Amount In Summary page with the amount fetched from Fligh Details tab */

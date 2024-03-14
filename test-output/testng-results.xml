@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-14T06:21:07Z" name="FLY DUBAI Test Automation Test Suite" finished-at="2024-03-14T06:23:26Z" duration-ms="138910">
+  <suite started-at="2024-03-14T07:02:23Z" name="FLY DUBAI Test Automation Test Suite" finished-at="2024-03-14T07:04:35Z" duration-ms="132275">
     <groups>
     </groups>
-    <test started-at="2024-03-14T06:21:07Z" name="FlyDubai flight ticket Booking" finished-at="2024-03-14T06:23:26Z" duration-ms="138910">
+    <test started-at="2024-03-14T07:02:23Z" name="FlyDubai flight ticket Booking" finished-at="2024-03-14T07:04:35Z" duration-ms="132275">
       <class name="com.crm.qa.testcases.FlightBooking">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T11:51:07Z" name="setUp" finished-at="2024-03-14T11:51:28Z" duration-ms="20114" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T12:32:23Z" name="setUp" finished-at="2024-03-14T12:32:43Z" duration-ms="19928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="SelectDepartureReturnTest(java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T11:51:28Z" name="SelectDepartureReturnTest" finished-at="2024-03-14T11:52:12Z" duration-ms="44653" status="PASS">
+        <test-method signature="SelectDepartureReturnTest(java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T12:32:43Z" name="SelectDepartureReturnTest" finished-at="2024-03-14T12:33:26Z" duration-ms="42782" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectDepartureReturnTest -->
-        <test-method signature="FlightSelectionPageTest()[pri:2, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T11:52:12Z" name="FlightSelectionPageTest" finished-at="2024-03-14T11:52:27Z" duration-ms="14690" status="PASS">
+        <test-method signature="FlightSelectionPageTest()[pri:2, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T12:33:26Z" name="FlightSelectionPageTest" finished-at="2024-03-14T12:33:39Z" duration-ms="13366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FlightSelectionPageTest -->
-        <test-method signature="AddExtraBaggageAndGetFlightDetailsTest()[pri:3, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T11:52:27Z" name="AddExtraBaggageAndGetFlightDetailsTest" finished-at="2024-03-14T11:52:54Z" duration-ms="26640" status="PASS">
+        <test-method signature="AddExtraBaggageAndGetFlightDetailsTest()[pri:3, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T12:33:39Z" name="AddExtraBaggageAndGetFlightDetailsTest" finished-at="2024-03-14T12:34:04Z" duration-ms="25255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddExtraBaggageAndGetFlightDetailsTest -->
-        <test-method signature="ReviewBookingTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T11:52:54Z" name="ReviewBookingTest" finished-at="2024-03-14T11:53:11Z" duration-ms="17738" status="PASS">
+        <test-method signature="ReviewBookingTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T12:34:04Z" name="ReviewBookingTest" finished-at="2024-03-14T12:34:21Z" duration-ms="17334" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReviewBookingTest -->
-        <test-method signature="ValidateFlightSummaryDetailsTest()[pri:5, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T11:53:11Z" name="ValidateFlightSummaryDetailsTest" finished-at="2024-03-14T11:53:26Z" duration-ms="14396" status="PASS">
+        <test-method signature="ValidateFlightSummaryDetailsTest()[pri:5, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T12:34:22Z" name="ValidateFlightSummaryDetailsTest" finished-at="2024-03-14T12:34:34Z" duration-ms="12840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateFlightSummaryDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T11:53:26Z" name="tearDown" finished-at="2024-03-14T11:53:26Z" duration-ms="560" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.FlightBooking@51f116b8]" started-at="2024-03-14T12:34:34Z" name="tearDown" finished-at="2024-03-14T12:34:35Z" duration-ms="696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
